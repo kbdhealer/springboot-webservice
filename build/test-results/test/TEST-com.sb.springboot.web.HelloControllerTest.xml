@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.sb.springboot.web.HelloControllerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-02-16T23:18:45" hostname="DESKTOP-LE2Q7FB" time="0.142">
+  <properties/>
+  <testcase name="helloDto_return()" classname="com.sb.springboot.web.HelloControllerTest" time="0.095"/>
+  <testcase name="hello_return()" classname="com.sb.springboot.web.HelloControllerTest" time="0.019"/>
+  <system-out><![CDATA[2021-02-16 16:18:44.968  INFO 11128 --- [    Test worker] .b.t.a.w.s.WebMvcTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.sb.springboot.web.HelloControllerTest], using SpringBootContextLoader
+2021-02-16 16:18:44.969  INFO 11128 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.sb.springboot.web.HelloControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-02-16 16:18:44.971  INFO 11128 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.sb.springboot.web.HelloControllerTest]: HelloControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-02-16 16:18:44.984  INFO 11128 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.sb.springboot.Application for test class com.sb.springboot.web.HelloControllerTest
+2021-02-16 16:18:44.985  INFO 11128 --- [    Test worker] .b.t.a.w.s.WebMvcTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-02-16 16:18:44.985  INFO 11128 --- [    Test worker] .b.t.a.w.s.WebMvcTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2387171b, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6b4de4c4, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@2687eb1, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5b95cae, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1e9daccd, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1af2001e, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5b2e6807, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@14bd13e0, org.springframework.test.context.event.EventPublishingTestExecutionListener@67b53e7e, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6dcd3066, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@458b1388, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@39d53aca, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@775da540, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@7397e5cd, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@6e1dbf64]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.4.2)
+
+2021-02-16 16:18:45.022  INFO 11128 --- [    Test worker] c.sb.springboot.web.HelloControllerTest  : Starting HelloControllerTest using Java 1.8.0_251 on DESKTOP-LE2Q7FB with PID 11128 (started by DiY in C:\Users\DiY\Documents\springbootBook)
+2021-02-16 16:18:45.022  INFO 11128 --- [    Test worker] c.sb.springboot.web.HelloControllerTest  : No active profile set, falling back to default profiles: default
+2021-02-16 16:18:45.335  INFO 11128 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-16 16:18:45.517  WARN 11128 --- [    Test worker] o.s.b.a.m.MustacheAutoConfiguration      : Cannot find template location: classpath:/templates/ (please add some templates, check your Mustache configuration, or set spring.mustache.check-template-location=false)
+2021-02-16 16:18:45.603  INFO 11128 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-02-16 16:18:45.603  INFO 11128 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-02-16 16:18:45.605  INFO 11128 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2021-02-16 16:18:45.622  INFO 11128 --- [    Test worker] c.sb.springboot.web.HelloControllerTest  : Started HelloControllerTest in 0.634 seconds (JVM running for 10.818)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
